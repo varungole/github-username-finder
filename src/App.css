@@ -1,0 +1,69 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Change the color as needed */
+}
+
+.user-name {
+  font-size: 18px;
+  color: #666; /* Change the color as needed */
+  display: block;
+  margin-bottom: 10px;
+}
+
+.username-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Change the border color as needed */
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF; /* Change the background color as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Change the hover color as needed */
+}
+
+.result {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 200px;
+  border: 1px solid #ccc; /* Change the border color as needed */
+  border-radius: 4px;
+}
+
+a.go-to {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF; /* Change the link color as needed */
+  font-weight: bold;
+}
+
+a.go-to:hover {
+  color: #0056b3; /* Change the hover color as needed */
+}
